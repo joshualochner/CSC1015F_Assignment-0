@@ -134,9 +134,13 @@ assignment. It is called ‘time.py’.
 # of days, hours and minutes.
 #
 # Name: Stephan Jamieson
-# minutes = int(input_str) days = hours//24
+#
+minutes = int(input_str)
+days = hours//24
 
-print(".") hours = minutes//60
+print(".")
+
+hours = minutes//60
 
 print("The number of days is", days, end=', ')
 print("and the number of minutes is", minutes, end='')
@@ -147,7 +151,6 @@ print("the number hours is", hours, end=', ')
 
 input_str = input("Enter a quantity of minutes: ")
 hours = hours%24
-
 ```
 
 The program consists of correct statements that are in the wrong order.
@@ -155,8 +158,7 @@ Here is an example of how the program is supposed to behave:
 
 ```
 Enter a quantity of minutes: 3500
-The number of days is 2, the number hours is 10, and the number of
-minutes is 20.
+The number of days is 2, the number hours is 10, and the number of minutes is 20.
 ```
 
 Download the program and rearrange the statements so that it operates
