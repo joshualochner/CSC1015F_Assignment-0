@@ -19,9 +19,7 @@ orientation manual.
 
 ```python
 # program to guess a secret number
-
 # hussein suleman
-
 # 10 february 2011
 
 secret_number = 42 # create secret number in program guess = 0 #
